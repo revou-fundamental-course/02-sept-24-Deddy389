@@ -1,0 +1,43 @@
+.main-header {
+    text-align: center;
+}
+
+.section-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-btn{
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+}
+
+.bisque-color{
+    background-color: bisque;
+}
+
+.aqua-color{
+    background-color: whitesmoke;
+}
+
+.luas-segitiga{
+ text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: cornsilk;
+}
+
+.luas-segitiga-img{
+  height: 300px;
+  width: 300px;
+  background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
+.artikel{
+  display: flex;
+  flex-direction: column;
+}
