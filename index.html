@@ -31,22 +31,26 @@
             <hr />
 
             <form>
-                <header>Hitung Luas Segitiga</header>
+                <header class="hit-luas-segitiga">
+                    <h2 class="hitung-luas">Hitung Luas  Segitiga</h2>
+                </header>
 
-                <div>
+                <br />
+                <div class="input-wrapper">
                     <label for="panjang">Panjang :</label>
-                    <input id="panjang" />
+                    <input id="panjangalas" type="number" required/>
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <label for="tinggi">Tinggi :</label>
-                    <input id="tinggi" />
+                    <input id="tinggialas" type="number"required/>
                 </div>
 
                 <p id="hasil">Hasil Perhitungan :</p>
 
-                <button>Hitung</button>
+                <button onclick="validateluas()" type="button">Hitung</button>
             </form>
         </section>
     </main>
+    <script src="js\script.js"></script>
 </body>
 </html>
